@@ -14,7 +14,7 @@ public class Diamond
         {
             for (i = 1; i <= space; i++)
             {
-                System.out.print(" ");
+                System.out.print("0");
             }
             space--;
             for (i = 1; i <= 2 * j - 1; i++)
@@ -28,7 +28,7 @@ public class Diamond
         {
             for (i = 1; i <= space; i++)
             {
-                System.out.print(" ");
+                System.out.print("0");
             }
             space++;
             for (i = 1; i <= 2 * (n - j) - 1; i++)
@@ -37,5 +37,6 @@ public class Diamond
             }
             System.out.println("");
         }
+        System.out.println("Ulala");
     }
 }
